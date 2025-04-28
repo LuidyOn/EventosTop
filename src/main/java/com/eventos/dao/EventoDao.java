@@ -28,7 +28,7 @@ public class EventoDao {
             stmt.setString(1, evento.getNome());
             stmt.setString(2, evento.getDescricao());
             // (stmt.setString(3, evento.getData().toString());
-            // nao estava rodando pq o banco de dados esta esperando um tipo data, arrumei na linha de baixo s2)
+            // (nao estava rodando pq o banco de dados esta esperando um tipo data, arrumei na linha de baixo s2)
             stmt.setDate(3, java.sql.Date.valueOf(evento.getData()));
             stmt.setString(4, evento.getLocal());
             stmt.setInt(5, evento.getCapacidade());
