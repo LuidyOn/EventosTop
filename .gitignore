@@ -1,0 +1,22 @@
+# Ignorar arquivos de build
+/target/
+**/*.class
+
+# Ignorar configurações específicas de IDEs
+/.idea/
+/*.iml
+/.vscode/
+/*.classpath
+/*.project
+/.settings/
+
+# Ignorar arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar logs
+*.log
+
+# Ignorar ambientes locais
+.env
+
