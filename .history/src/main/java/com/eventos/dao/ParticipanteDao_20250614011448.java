@@ -1,0 +1,3 @@
+private List<Evento> buscarEventosPorParticipante(int participanteId) {
+        // ...
+    }
